@@ -1,0 +1,18 @@
+<header>
+    <nav>
+        <h1>Store</h1>
+    </nav>
+</header>
+
+<div id="container">
+    <div id="book">
+        <h1>Javascript For Beginners</h1>
+        <h4>By John Doe</h4>
+    </div>
+</div>
+
+<form method="POST" action="/get-form-data">
+    <label for="price">Quantity</label>
+    <input type="number" value={{ price }} id="price" name="price">
+    <button type="submit" id="checkout-button" data-secret= {{ sessionId }} >Pay</button>
+</form>

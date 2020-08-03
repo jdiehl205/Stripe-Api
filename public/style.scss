@@ -1,0 +1,118 @@
+body{
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+form{
+    margin-top: 20px;
+    position: relative;
+    left: 0%;
+    input{
+        width: 30px;
+    }
+    label{
+        font-size: .9em;
+        font-weight: bold;
+        color: black;
+    }
+}
+
+header{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: .7em;
+    margin-bottom: 10px;
+    background-color: black;
+    width: 100vw;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 0%;
+    #book{
+        border: solid black 5px;
+        background-color: blue;
+        width: 40%;
+        font-size: .7em;
+        padding: 20px;
+    }
+}
+
+/* Media Queries */
+
+@media(min-width: 320px){
+    #container{
+        #book{
+            width: 30%;
+        }
+    }
+}
+
+@media(min-width: 411px){
+    #container{
+        #book{
+            width: 25%;
+        }
+    }
+}
+
+@media(min-width: 600px){
+    #container{
+        #book{
+            width: 15%;
+        }
+    }
+}
+
+@media(min-width: 767px){
+
+    #container{
+        #book{
+            width: 10%;
+            font-size: .6em;
+        }
+    }
+}
+
+@media(min-width: 1024px){
+
+    #container{
+        #book{
+            width: 8%;
+            font-size: .6em;
+        }
+    }
+}
+
+@media(min-width: 1280px){
+    #container{
+        #book{
+            width: 11%;
+            font-size: 1em;
+        }
+    }
+}
+
+@media(min-width: 1920px){
+    #container{
+        #book{
+            width: 7%;
+            font-size: 1em;
+        }
+    }
+}
+
+@media(min-width: 3840px){
+    #container{
+        #book{
+            width: 4%;
+            font-size: 1em;
+        }
+    }
+}
