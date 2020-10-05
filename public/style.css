@@ -17,7 +17,7 @@ form input {
 }
 
 form label {
-  font-size: .9em;
+  font-size: 1.1em;
   font-weight: bold;
   color: black;
 }
@@ -32,7 +32,7 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: .7em;
+  font-size: .9em;
   margin-bottom: 10px;
   background-color: black;
   width: 100vw;
@@ -55,6 +55,20 @@ header {
   width: 40%;
   font-size: .7em;
   padding: 20px;
+}
+
+#cancel {
+  color: #333;
+}
+
+#success {
+  color: #333;
+}
+
+p {
+  color: black;
+  font-size: 1.2em;
+  margin: 5px;
 }
 
 /* Media Queries */
